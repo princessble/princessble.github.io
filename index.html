@@ -525,6 +525,18 @@
       height: clamp(260px, 35vw, 420px);
     }
 
+    #visual-showcase .media-card {
+      min-height: auto;
+    }
+
+    .screenshot-image {
+      object-fit: contain;
+      object-position: center;
+      background: #ffffff;
+      padding: 0.75rem;
+      height: clamp(190px, 24vw, 260px);
+    }
+
     .media-content {
       padding: 1.2rem;
     }
@@ -773,7 +785,7 @@
 
         <div class="media-grid">
           <article class="media-card">
-            <img class="media-image" src="assets/revenue-by-product.png" alt="Revenue chart from the Healthy Snack Sales Analysis project" />
+            <img class="media-image screenshot-image" src="assets/revenue-by-product.png" alt="Revenue chart from the Healthy Snack Sales Analysis project" />
             <div class="media-content">
               <h3>Healthy Snack Sales Analysis</h3>
               <p>Sales analysis output showing how Python, SQL, pandas, and visualisation can support business decision-making.</p>
@@ -781,7 +793,7 @@
           </article>
 
           <article class="media-card">
-            <img class="media-image" src="assets/api-docs.png" alt="FastAPI documentation page for the Healing Sip Wellness API" />
+            <img class="media-image screenshot-image" src="assets/api-docs.png" alt="FastAPI documentation page for the Healing Sip Wellness API" />
             <div class="media-content">
               <h3>Healing Sip API Documentation</h3>
               <p>Backend API documentation showing endpoints for creating, viewing, updating, and deleting wellness appointments.</p>
@@ -789,7 +801,7 @@
           </article>
 
           <article class="media-card">
-            <img class="media-image" src="assets/enquiries-by-category.png" alt="Chart from the Smart Business Enquiry Automation project" />
+            <img class="media-image screenshot-image" src="assets/enquiries-by-category.png" alt="Chart from the Smart Business Enquiry Automation project" />
             <div class="media-content">
               <h3>Smart Business Enquiry Automation</h3>
               <p>Automation output showing enquiry classification, lead scoring, and business reporting from customer enquiry data.</p>
